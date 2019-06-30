@@ -9,6 +9,7 @@ sudo apt-get install jq -y
 echo "siege (For Generating HTTP) is running and waiting for some time"
 echo "----------------------------------------------------------------"
 #Generating load
+#Currently hardcoding it to prod FQDN
 siege -c 1000 guestbook.mstakx.io & echo $! > ~/pid
 ps -ef|grep siege
 

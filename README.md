@@ -1,3 +1,9 @@
+
+
+
+
+
+
 Assumptions - 
 Step 1 - You have Kubernetes Cluster on GCP
 

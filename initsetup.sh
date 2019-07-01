@@ -105,4 +105,4 @@ kubectl create -f deploy/HorizontalAutoScale/hpa.yaml -n staging
 sleep 30
 kubectl get hpa -n staging
 
-##################    Environment setup completed, you can procced to test auto scale funtionality by running loadtest.sh  ###########
+##################    Environment setup completed, you can procced to test auto scale funtionality by running loadtest scripts ###########

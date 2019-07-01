@@ -13,6 +13,7 @@ Assumptions
 - Environment should be in user mode
 - Run the initstep.sh
 - Before you test Nignx ingress controller functionality, you need to keep External IP in /etc/hosts file since we have not setup DNS.
+- Make sure Metrics pod running on kubernetes cluster before implementing Horizontal Auto Scale up / down
 
 
 

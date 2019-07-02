@@ -1,0 +1,23 @@
+What was the node size chosen for the Kubernetes nodes? And why?
+
+I have gone through with the guest-book yaml files, as that is a light weight application, I tought default GCP kuberenetes cluster configuration is enough to serve our purpose. 
+default configuration -  1 vCPU and 3.75 GB memory
+
+
+
+What method was chosen to install the demo application and ingress controller on the cluster, justify the method used
+
+I have used the yaml files provied by you and kubectl commands to create enviroment
+
+
+
+What would be your chosen solution to monitor the application on the cluster and why?
+
+I would have been choosen prometheus for monitoring and alerting and would prefer graphana to visulize the data.
+
+
+
+What additional components / plugins would you install on the cluster to manage it better? 
+
+1. GUI
+2. Monitoring tools
